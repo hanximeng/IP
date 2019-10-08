@@ -49,7 +49,7 @@ echo '			</div>';
 		</form>
 	</div>
 	<center style="padding-top:25px">
-		<a href="https://api.hanximeng.com/">寒曦朦博客</a>
+		<a href="https://hanximeng.com/">寒曦朦博客</a>
 		<a>|||</a>
 		<a href="https://github.com/hanximeng/IP">本项目 Github</a>
 	</center>
