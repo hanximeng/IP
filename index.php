@@ -24,7 +24,8 @@
 <?php
 //判断是否输入了IP
 if(!empty($_POST['ip'])){
-$IP = $_POST['ip'];
+//甭管他是不是域名，统统当做域名获取一次IP
+$IP = gethostbyname($_POST['ip']);
 //获取接口数据
 $data = file_get_contents("https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?query=".$IP."&resource_id=6006&ie=utf-8&oe=utf-8");
 //转换为数组
